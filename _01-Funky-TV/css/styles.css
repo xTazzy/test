@@ -1,0 +1,66 @@
+/* From https://css-tricks.com/box-sizing/ */
+
+/* Shell */
+html {
+  float: left;
+  background-color: rgb(238, 178, 218);
+  } 
+
+/* Layout */
+
+.main-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 960px;
+  height: 720px;
+  background-image: url("../images/tv-aqua-marine.jpg");
+  padding: 0;
+  margin: 0;
+}
+
+/* Text */
+h1.start-menu-title {
+  font-size: 70px;
+  color: purple;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 180px;
+  padding-left: 180px;
+  margin-left: 90px;
+}
+
+h1.ascii-screen {
+
+}
+
+p {
+  font-size: 30px;
+  color: rgb(109, 9, 109);
+  margin-top: -50px;
+  padding-left: 275px;
+}
+
+/* Assets */
+.logo {
+
+}
+
+/* JS Buttons */
+.button-1 {
+
+}
+
+.button-2 {
+
+}
+
+/* Ascii */
+pre {
+  position: absolute;
+  margin-left: 220px;
+  margin-top: -40px;
+  font-weight: bold;
+  color: rgb(145, 30, 145);
+}
